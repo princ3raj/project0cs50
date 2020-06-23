@@ -1,0 +1,59 @@
+                body {
+                background: #719F9E
+            }
+            
+            aside {
+                margin: 100px;
+                width: 50%;
+            }
+            
+            .picture {
+                min-width: 300px;
+                width: 100%;
+                background-image: url(images/boy_small.png);
+                height: 100%;
+                background-repeat: no-repeat;
+                padding: 60px;
+            }
+            
+            .form-group input {
+                min-width: 300px;
+                width: 300px;
+            }
+            
+            #works {
+                display: flex;
+                background-color: #ffff;
+            }
+            
+            #works>ul>li {
+                display: inline;
+                margin: 20px;
+            }
+            
+            .card-deck .card {
+                max-width: 200px;
+            }
+            
+            .container {
+                display: flex;
+            }
+            
+            a:hover {
+                background-color: rgb(112, 106, 106);
+            }
+            /* On screens that are 992px wide or less, the background color is blue */
+            
+            @media screen and (max-width: 992px) {
+                body {
+                    background-color: rgb(138, 138, 153);
+                    color: white;
+                }
+            }
+            /* On screens that are 600px wide or less, the background color is olive */
+            
+            @media screen and (max-width: 600px) {
+                body {
+                    background-color: olive;
+                    color: white;
+                }
